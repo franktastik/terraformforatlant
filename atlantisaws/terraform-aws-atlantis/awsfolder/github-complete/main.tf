@@ -2,10 +2,10 @@ provider "aws" {
   region = local.region
 }
 
-# Added this line
-resource "aws_route53_zone" "primary" {
-  name = "chiboy.link"
-}
+
+# resource "aws_route53_zone" "primary" {
+#   name = "chiboy.link"
+# }
 
 locals {
   name   = "github-complete"
